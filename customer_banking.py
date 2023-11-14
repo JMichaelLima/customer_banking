@@ -41,7 +41,7 @@ def main():
     savings_interest = get_input(
         "What is the interest rate? ", float, "Please enter a valid interest rate. ")
     savings_maturity = get_input(
-        "How many months? ", int, "Please enter a valid numnber of months. ")
+        "How many months? ", int, "Please enter a valid number of months. ")
 
     # Call the create_savings_account function and pass the variables from the user.
     updated_savings_balance, interest_earned = create_savings_account(
