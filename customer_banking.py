@@ -8,7 +8,7 @@ from savings_account import create_savings_account
 
 def get_input(user_prompt: str, data_type: type, error_message: str):
     """
-    This function repeatedly prompts the user using the given message until the
+    This function prompts the user using the given message until the
     input can be successfully converted to the specified data type. If the input 
     does not match the data type, an error message is displayed and the user is 
     prompted again.

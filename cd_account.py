@@ -33,7 +33,7 @@ def create_cd_account(balance, interest_rate, months):
 
     # Pass the interest_earned to the set interest method using the instance of the CDAccount class.
     
-    new_cd.set_interest(interest_rate)
+    new_cd.set_interest(interest_earned)
 
     # Return the updated balance and interest earned.
     return updated_balance, interest_earned
